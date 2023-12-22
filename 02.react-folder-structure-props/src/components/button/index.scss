@@ -1,0 +1,25 @@
+button {
+  color: white;
+  background-color: teal;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 0.6s;
+
+  cursor: pointer;
+  &:hover {
+    color: teal;
+    border: 1px solid teal;
+    background-color: transparent;
+  }
+  &.bg-orange {
+    background-color: orange;
+    border: 1px solid orange;
+
+    &:hover {
+      background-color: transparent;
+      color: orange;
+    }
+  }
+}
