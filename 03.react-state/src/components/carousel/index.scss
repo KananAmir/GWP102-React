@@ -1,0 +1,24 @@
+#carousel {
+  .swiper {
+    .swiper-wrapper {
+      .swiper-slide {
+        padding: 20rem 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+        justify-content: center;
+        &:nth-child(1) {
+          background-image: url("../../assets/images/bg1.jpg");
+        }
+        &:nth-child(2) {
+          background-image: url("../../assets/images/bg2.jpg");
+        }
+      }
+    }
+  }
+}
