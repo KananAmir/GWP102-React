@@ -8,6 +8,7 @@ import icon3 from "../../assets/images/icon3.png";
 const HomePage = ({ sayHi }) => {
   let userName = "Shalala";
   sayHi(userName);
+  
   // const products = [
   //   {
   //     title: "Strategy Planning",

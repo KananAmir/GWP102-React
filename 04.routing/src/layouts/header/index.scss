@@ -1,0 +1,27 @@
+header {
+  background-color: black;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    .logo {
+      color: white;
+      font-size: 1.5rem;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 1.5rem;
+        li {
+          a {
+            color: white;
+            font-size: 1.2rem;
+            &.active {
+              color: rgb(200, 102, 102);
+            }
+          }
+        }
+      }
+    }
+  }
+}

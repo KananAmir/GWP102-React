@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <h1>Product Name: {productName}</h1>
-      {/* <Carousel /> */}
+      <Carousel />
       {/* <HomePage sayHi={sayHi} /> */}
       <hr />
       <button onClick={() => setShow(true)}>Show Skills</button>
