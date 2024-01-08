@@ -1,0 +1,26 @@
+header {
+  padding: 1.5rem 0;
+  background-color: teal;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      ul {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            color: #000;
+            &.active {
+              color: #fff;
+              border-bottom: 1px solid #fff;
+              padding-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
